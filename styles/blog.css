@@ -1,0 +1,124 @@
+/****************************************************** single blog *************************************************/
+.single-blog-page {
+}
+.single-blog-page .blog-content {
+  padding: 0 40px;
+}
+.single-blog-page .blog-img-wrapper {
+  margin-top: 150px;
+}
+.single-blog-page .blog-img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  max-height: 600px;
+}
+.single-blog-page .heading h4 {
+  color: #252525;
+  font-weight: 100;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-top: 40px;
+}
+.single-blog-page .heading .dots {
+  display: block;
+  margin-top: -40px;
+  font-size: 34px;
+  letter-spacing: 7px;
+  color: #fcdb34;
+}
+.blog-content .date-author {
+  margin-top: 10px;
+}
+.blog-content .date-author span {
+  margin: 0 12px;
+}
+.blog-content .date-author i {
+  color: #fcdb34;
+  font-size: 14px;
+}
+.blog-content .content-text p {
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #252525;
+  font-family: "Lato", sans-serif;
+  margin: 40px 0;
+}
+.blog-content .about-author {
+  display: flex;
+  background: rgba(252, 219, 52, 0.2);
+  align-items: center;
+  margin: 30px 0 80px;
+  padding: 5%;
+}
+.blog-content .about-author .author-img {
+  /* flex: 1; */
+  /* background-color: tomato; */
+}
+.blog-content .about-author .author-details {
+  /* width: 50%; */
+  /* flex: 4; */
+  /* background-color: turquoise; */
+  margin-left: 20px;
+}
+.blog-content .about-author .author-details h3 {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.blog-content .about-author .author-details h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-author .author-img img {
+  width: 100%;
+}
+.about-author p {
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 990px) {
+  .single-blog-page .blog-content {
+    padding: 0 20px;
+  }
+  .single-blog-page .heading h4 {
+    font-size: 18px;
+  }
+  .single-blog-page .blog-img-wrapper {
+    margin-top: 80px;
+  }
+  .blog-content .date-author span {
+    font-size: 14px;
+  }
+  .blog-content .content-text p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .blog-content .about-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-author .author-img img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .blog-content .about-author .author-details {
+    margin-left: 0;
+  }
+  .blog-content .about-author .author-details h3 {
+    font-size: 22px;
+  }
+  .blog-content .about-author .author-details h5 {
+    font-size: 16px;
+  }
+}

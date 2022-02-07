@@ -1,0 +1,64 @@
+/***************************************************** Header *************************************************/
+.navigator {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(
+      0deg,
+      rgba(109, 104, 104, 0.164),
+      rgba(110, 104, 104, 0.164)
+    ),
+    url("../images/counter-parallax.jpeg");
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navigator h2 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  margin-top: 40px;
+}
+.navigator .header-first {
+  color: #fcdb34;
+}
+.navigator .header-last {
+  color: #fff;
+}
+
+@media only screen and (max-width: 990px) {
+  .navigator {
+    margin-bottom: 70px;
+    height: 200px;
+  }
+  .navigator h2 {
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-top: 0px;
+  }
+}
+
+/************************************************************** BlogList *******************************************/
+.blog-list {
+  padding: 0 40px;
+}
+.blog-list .blogs-row {
+  margin-bottom: 70px;
+}
+.blog-list .card-blog {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 990px) {
+  .blog-list {
+    padding: 0 10px;
+  }
+}
